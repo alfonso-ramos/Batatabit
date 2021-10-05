@@ -443,6 +443,7 @@ main{
     line-height: 1.8rem;
     color: #757575;
 }
+/* Primera tarjeta con el plan recomendado */
 .plans-container--card{
     position: relative;
     width: 70%;
@@ -514,4 +515,36 @@ main{
     height: 20px;
     background-image: url(../assets/icons/orange-right-arrow.svg);
     vertical-align: text-bottom;
+}
+/* Segunda tarjeta con el plan basico mensual */
+.basic{
+    position: relative;
+    width: 120px;
+    height: 31px;
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-family:  'Inter', sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    background-color: var(--secundary-blue);
+    border-radius: 8px;
+    color: var(--white);
+}
+/* Terceran tarjeta con el plan de por vida */
+.for-life{
+    position: relative;
+    width: 120px;
+    height: 31px;
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-family:  'Inter', sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    background-color: var(--black);
+    border-radius: 8px;
+    color: var(--white);
 }
