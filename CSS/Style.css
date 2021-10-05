@@ -448,7 +448,7 @@ main{
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 200px;
     max-width: 300px;
     height: 250px;
     margin: 50px auto 0;
@@ -564,4 +564,30 @@ main{
 }
 .plans-container--slider::-webkit-scrollbar-thumb{
     background-color: var(--bitcoin-orange);
+}
+/* Seccion del footer */
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+footer section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+footer .left ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+.left li{
+    margin: 10px 0;
+}
+.left a{
+    text-decoration: none;
+    color: var(--white);
 }
