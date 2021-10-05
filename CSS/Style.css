@@ -446,6 +446,7 @@ main{
 /* Primera tarjeta con el plan recomendado */
 .plans-container--card{
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -547,4 +548,20 @@ main{
     background-color: var(--black);
     border-radius: 8px;
     color: var(--white);
+}
+/* Estilos del slider */
+.plans-container--slider{
+    display: flex;
+    gap: 8px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.plans-container--slider::-webkit-scrollbar{
+    background-color: var(--soft-orange);
+    height: 3px;
+}
+.plans-container--slider::-webkit-scrollbar-thumb{
+    background-color: var(--bitcoin-orange);
 }
